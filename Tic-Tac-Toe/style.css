@@ -1,0 +1,66 @@
+ *{
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-image: url(/pexels-helloaesthe-10572411.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+  }
+  
+  .container {
+    height: 70vh;
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .game {
+    height: 55vmin;
+    width: 60vmin;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+  }
+  h1{
+    color: darkcyan;
+    background-color: rgb(54, 10, 10);
+    margin-right: 40%;
+    margin-left: 40%;
+  }
+  #reset{
+    padding: 5px 50px;
+    font-size: 1.25em;
+    background-color: rgba(238, 247, 246, 0.678);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(24, 1, 46, 0.3);
+  }
+ 
+   .box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 3rem;
+    border-top-left-radius: px;
+    border: none;
+    box-shadow: 0 0 2rem rgba(68, 219, 22, 0.3);
+    font-size: 8vmin;
+    color: rgb(223, 205, 205);
+    background-color: rgba(95, 15, 65, 0.89);
+  } 
+   
+  
+  
+  
+  
+  
+  
+  
